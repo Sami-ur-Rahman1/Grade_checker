@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Grade Checker</title>
+</head>
+<body>
+    <h1>Grade Checker</h1>
+    <div class="main-div">
+    <form id="gradeForm">
+      <div class="label-div">
+        <label for="percentage">Enter your percentage (0-100): </label>
+      </div>
+      <div class="input-div">
+        <input type="number" id="percentage" name="percentage" min="0" max="100" required>
+      </div>  
+        <input type="submit" value="Check Grade">
+    </form>
+    <div id="resultDiv"></div>
+    </div>
+    <script src="script.mjs"></script>
+</body>
+</html>

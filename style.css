@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Roboto:wght@100;400;500&family=Titillium+Web:wght@200&display=swap');
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    background-image: url(assets/bg-image2.jpg);
+    /* background-color: black; */
+}
+
+h1 {
+    color: #ffffff;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+input[type="number"] {
+    padding: 5px;
+    width: 150px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Chakra Petch', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.main-div{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    flex-direction: column;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.label-div{
+    display: flex;
+}
+.input-div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#resultDiv {
+    font-weight: bold;
+    color: #ffffff;
+    margin: 15px;
+}
